@@ -1,0 +1,249 @@
+
+body {
+  margin: 0;
+}
+.navbar{
+  &.css-hip9hq-MuiPaper-root-MuiAppBar-root{
+  background-color: rgb(117, 117, 249);
+  }
+}
+.btn{
+  &.MuiButtonBase-root {
+    &:hover{
+    background-color: rgb(88, 88, 255);
+
+    }
+  }
+  
+}
+
+.foricon{
+  .icon{
+    width: 33px;
+  }
+  &.MuiTypography-root{
+    gap: 10px;
+  }
+}
+
+.modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  .modal-inner {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 4px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  }
+}
+  .edit-todo-container {
+    margin: 20px;
+  }
+  
+  .edit-todo-container form {
+    margin-bottom: 10px;
+  }
+  
+  .edit-todo-container form input[type="text"] {
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+    margin-bottom: 10px;
+  }
+  
+  .edit-todo-container form label {
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  .edit-todo-container form button[type="submit"],
+  .edit-todo-container button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-right: 10px;
+  }
+  
+  .edit-todo-container form button[type="submit"]:hover,
+  .edit-todo-container button:hover {
+    background-color: #0056b3;
+  }
+  
+.form{
+  margin-top: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  label{
+    font-weight: bold;
+    display: flex;
+    margin-bottom: 5px;
+  }
+  input[type="text"],
+  input[type="email"],
+  input[type="number"],
+  input[type="password"],
+  input[type="date"] {
+    display: block;
+    width: 400px;
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 1.428577143;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-bottom: 20px;
+  }
+  .error{
+    color: red;
+    font-size: 12px;
+    text-align: left;
+  }
+  .form-control{
+    margin-bottom: 20px;
+  }
+}
+
+.widget-container{
+  margin-top: 100px;
+  .content {
+    display: block;
+  }
+  .dx-gallery-item {
+    width: 500px;
+    max-width: 100%;
+  }
+    .dx-gallery-item img {
+      height: 350px;
+      width: 500px;
+      max-width: 100%;
+    }
+    .dx-gallery-item .item-price {
+      font-size: 20px;
+      font-weight: bold;
+    }
+}
+
+.options {
+  padding: 20px;
+  background-color: rgba(191, 191, 191, 0.15);
+  margin-top: 20px;
+  .caption {
+    font-size: 18px;
+    font-weight: 500;
+  }
+  .option {
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    .option > span {
+      display: inline-block;
+      width: 100px;
+    }
+    .option > .dx-selectbox {
+      width: 100%;
+      max-width: 350px;
+      display: inline-block;
+      vertical-align: middle;
+    }
+  }
+}
+
+
+
+
+.todoList{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.formTodo{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.todo-input {
+  padding: 10px;
+  font-size: 16px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  margin-right: 10px;
+}
+
+.add-button {
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.header {
+  background-color: #f2f2f2;
+  padding: 20px;
+  text-align: center;
+}
+
+.header h2 {
+  margin: 0;
+}
+
+nav {
+  margin-top: 20px;
+}
+
+nav button {
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-right: 10px;
+}
+
+.todo-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.todo-title {
+  margin-right: 10px;
+}
+
+.edit-button,
+.delete-button {
+  padding: 5px 10px;
+  font-size: 12px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.delete-button {
+  margin-left: 10px;
+}
+
+
+
